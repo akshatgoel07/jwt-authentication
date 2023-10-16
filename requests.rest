@@ -1,10 +1,10 @@
 GET http://localhost:3000/posts
-Authorization: : Bearer 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTMzMzYxNzR9.kOMlD6LsWhmVhtPMW25J7-rOjGAq0iiqhfH51xPT0PQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWsiLCJpYXQiOjE2OTc0OTMxMjV9.zB-u8-oOtX74rhLafUsGF3dBk3C4k5HPOikM14lTZOk
+
 ###
 POST http://localhost:3000/login
-Content-Type: : application/json
+Content-Type: application/json
 
-{
-    "username": "Jim"
-} 
+{"username": "Ak"} 
+
+// if i don't do it this specific way it does not work!
